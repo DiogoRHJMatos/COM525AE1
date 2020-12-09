@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import styled from "styled-components";
 import closeIcon from "./Assets/times-solid.svg";
 import { Button } from "../Week3";
-import { useSwipeable } from "react-swipeable";
 
 const StyledWrapper = styled.div`
   display: flex;
@@ -49,9 +48,6 @@ const Week5 = () => {
 
   const [navOpen, setNavOpen] = useState(false);
 
-  const handlers = useSwipeable({onSwipedRight: () => setNavOpen(true),
-      onSwipedLeft: () => setNavOpen(false)});
-
   const handleClose = () => {
     setNavOpen(false);
   }
@@ -60,19 +56,9 @@ const Week5 = () => {
     setNavOpen(true);
   }
 
-  const handleSwipe = (event) => {
-    if (event.dir === "Right") {
-      setNavOpen(true);
-    }
-
-    if (event.dir === "Left") {
-      setNavOpen(false);
-    }
-  }
-
   return (
     <>
-      <StyledWrapper {...handlers}>
+      <StyledWrapper>
         <StyledSideNav open={navOpen}>
           <StyledCloseIcon onClick={handleClose} src={closeIcon} />
             {navOpen && (<StyledNav>

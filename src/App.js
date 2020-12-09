@@ -1,6 +1,6 @@
 import React from 'react';
-import Week2 from "./Components/Week2";
 import Week3 from "./Components/Week3";
+import Week4 from "./Components/Week4";
 import Week5 from "./Components/Week5";
 import Week8 from "./Components/Week8";
 import Week9 from "./Components/Week9";
@@ -11,10 +11,10 @@ const Home = () => (
 <nav>
   <ul>
     <li>
-      <Link to="/week-2">Week 2</Link>
+      <Link to="/week-3">Week 3</Link>
     </li>
     <li>
-      <Link to="/week-3">Week 3</Link>
+      <Link to="/week-4">Week 4</Link>
     </li>
     <li>
       <Link to="/week-5">Week 5</Link>
@@ -32,11 +32,11 @@ const Home = () => (
 const App = () => (
   <Router> 
     <Switch>
-      <Route path="/week-2">
-        <Week2 /> 
-      </Route>
       <Route path="/week-3">
         <Week3 /> 
+      </Route>
+      <Route path="/week-4">
+        <Week4 /> 
       </Route>
       <Route path="/week-5">
         <Week5 /> 

@@ -2,40 +2,76 @@ import React from 'react';
 import styled from "styled-components";
 
 const StyledWrapper = styled.div`
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
-const StyledButton = styled.button`
-    color: #fff;
-    background-color: ${(props) => props.color};
-    padding: 1rem 2rem;
-    font-size: 1.5rem;
-    border: 0;
-    border-radius: 0.25rem;
-    box-shadow: 0 0 0.5rem rgb(0,0,0, 0.3);
-    cursor: pointer;
-    margin: 2%;
+const StyledButtonPrimary = styled.button`
+position: absolute;
+  font-family: "Segoe UI semibold", Arial, Helvetica;
+  color: #ffffff;
+  background-color: ${(props) => props.color};
+  padding: 11px 56px 16px 56px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 2%;
+  &:hover {
+    background: #0A86E4;
+}
+  &:active {
+    background: #007AD7;
+  }
 `;
 
-export const Button = (props) => {
-    const { children, color, disabled, hoverColor, ...other } = props;
-    return (
-      <StyledButton color={disabled ? "grey" : color} disabled={disabled} {...other}>
-        {" "}{children}{" "}
-      </StyledButton>
-    );
-  };
+const StyledButtonSecondary = styled.button`
+  font-family: "Segoe UI semibold", Arial, Helvetica;
+  color: ${(props) => props.color};
+  background-color: #ffffff;
+  padding: 11px 56px 16px 56px;
+  font-size: 18px;
+  border: 2px solid;
+  border-color: ${(props) => props.color};
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 2%;
+  &:hover {
+    color:  #0A86E4;
+    border-color: #0A86E4;
+}
+  &:active {
+    color: #007AD7;
+    border-color: #007AD7;
+  }
+`;
+
+export const ButtonPrimary = (props) => {
+  const { children, color, disabled, ...other } = props;
+  return (
+    <StyledButtonPrimary color={disabled ? "#90C7F1" : color} disabled={disabled} {...other}>
+      {" "}{children}{" "}
+    </StyledButtonPrimary>
+  );
+};
+
+export const ButtonSecondary = (props) => {
+  const { children, color, disabled, ...other } = props;
+  return (
+    <StyledButtonSecondary color={disabled ? "#90C7F1" : color} disabled={disabled} {...other}>
+      {" "}{children}{" "}
+    </StyledButtonSecondary>
+  );
+};
 
 const Week3 = () => {
   return (
       <StyledWrapper>
-          <Button color="#6200ee">Button 1</Button>
-          <Button color="#1200ee">Button 2</Button>
-          <Button color="#1280ee">Button 3</Button>
+          <ButtonPrimary color="#2894E7">Button</ButtonPrimary>
+          <ButtonSecondary color="#2894E7">Button</ButtonSecondary>
       </StyledWrapper>
   )
 };

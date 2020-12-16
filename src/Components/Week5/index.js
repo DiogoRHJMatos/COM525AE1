@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from "styled-components";
 import closeIcon from "./Assets/times-solid.svg";
-import { Button } from "../Week3";
+import { ButtonPrimary } from "../Week3";
 
 const StyledWrapper = styled.div`
   display: flex;
@@ -52,8 +52,8 @@ const Week5 = () => {
     setNavOpen(false);
   }
 
-  const handleOpen = () => {
-    setNavOpen(true);
+  const handleOpenClose = () => {
+    setNavOpen(!navOpen);
   }
 
   return (
@@ -68,7 +68,7 @@ const Week5 = () => {
               </StyledNav>)
             }
         </StyledSideNav> 
-      <Button onClick={handleOpen} color="#1200ee"> Open Nav </Button>
+      <ButtonPrimary onClick={handleOpenClose} color="#1200ee"> Open Nav </ButtonPrimary>
       </StyledWrapper>
     </>
   )

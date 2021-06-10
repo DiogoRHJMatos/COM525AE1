@@ -1,12 +1,12 @@
 # Interaction Design - COM525AE1
 
-#### Hosted Site: https://diogorhjmatos.github.io/COM525AE1/
+## Hosted Site: https://diogorhjmatos.github.io/COM525AE1/
 
 ---
 
 ## Introduction
 
-cenas
+cenas?
 
 ---
 
@@ -15,8 +15,8 @@ cenas
 - Research
 - Evaluation of guidelines
 - Planning and design prototype
-- Coding
-- Walkthrough
+- Code
+- Screencast
 - Reflection
 
 [2. Buttons](#2-Buttons)
@@ -24,8 +24,8 @@ cenas
 - Research
 - Evaluation of guidelines
 - Planning and design prototype
-- Coding
-- Walkthrough
+- Code
+- Screencast
 - Reflection
 
 [3. Navigation Bar](#3-Navigation-Bar)
@@ -33,8 +33,8 @@ cenas
 - Research
 - Evaluation of guidelines
 - Planning and design prototype
-- Coding
-- Walkthrough
+- Code
+- Screencast
 - Reflection
 
 [4. Card](#4-Card)
@@ -42,8 +42,8 @@ cenas
 - Research
 - Evaluation of guidelines
 - Planning and design prototype
-- Coding
-- Walkthrough
+- Code
+- Screencast
 - Reflection
 
 [5. Modal](#5-Modal)
@@ -51,8 +51,8 @@ cenas
 - Research
 - Evaluation of guidelines
 - Planning and design prototype
-- Coding
-- Walkthrough
+- Code
+- Screencast
 - Reflection
 
 [References](#References)
@@ -93,37 +93,25 @@ cenas
 
 img
 
----
-
 ### Research
 
 cenas
-
----
 
 ### Evaluation of guidelines
 
 cenas
 
----
-
 ### Planning and design prototype
 
 img prototype
-
----
 
 ### Code
 
 img polaroid
 
----
-
 ### Screencast
 
 gif
-
----
 
 ### Reflection
 
@@ -135,37 +123,25 @@ cenas
 
 img
 
----
-
 ### Research
 
 cenas
-
----
 
 ### Evaluation of guidelines
 
 cenas
 
----
-
 ### Planning and design prototype
 
 img prototype
-
----
 
 ### Code
 
 img polaroid
 
----
-
 ### Screencast
 
 gif
-
----
 
 ### Reflection
 
@@ -177,37 +153,25 @@ cenas
 
 img
 
----
-
 ### Research
 
 cenas
-
----
 
 ### Evaluation of guidelines
 
 cenas
 
----
-
 ### Planning and design prototype
 
 img prototype
-
----
 
 ### Code
 
 img polaroid
 
----
-
 ### Screencast
 
 gif
-
----
 
 ### Reflection
 
@@ -219,37 +183,25 @@ cenas
 
 img
 
----
-
 ### Research
 
 cenas
-
----
 
 ### Evaluation of guidelines
 
 cenas
 
----
-
 ### Planning and design prototype
 
 img prototype
-
----
 
 ### Code
 
 img polaroid
 
----
-
 ### Screencast
 
 gif
-
----
 
 ### Reflection
 

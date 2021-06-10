@@ -59,7 +59,7 @@ const Toggle = (props) => {
 }
 
 
-const Week9 = () => {
+const Card_Component = () => {
 
     const [showBackground, setShowBackground] = useState(false);
     const handleNotActive = () => setShowBackground(false);
@@ -75,4 +75,4 @@ const Week9 = () => {
 
 
 
-export default Week9;
+export default Card_Component;

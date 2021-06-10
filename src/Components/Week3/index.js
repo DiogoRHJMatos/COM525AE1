@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
+import saveIconStroke from "./Assets/bookmark-regular.svg";
+import saveIconFull from "./Assets/bookmark-solid.svg";
 
 const StyledWrapper = styled.div`
   width: 100vw;
@@ -10,31 +12,12 @@ const StyledWrapper = styled.div`
 `;
 
 const StyledButtonPrimary = styled.button`
-position: absolute;
-  font-family: "Segoe UI semibold", Arial, Helvetica;
-  color: #ffffff;
-  background-color: ${(props) => props.color};
-  padding: 11px 56px 16px 56px;
-  font-size: 18px;
-  border: 0;
-  border-radius: 8px;
-  cursor: pointer;
-  margin: 2%;
-  &:hover {
-    background: #0A86E4;
-}
-  &:active {
-    background: #007AD7;
-  }
-`;
-
-const StyledButtonSecondary = styled.button`
   font-family: "Segoe UI semibold", Arial, Helvetica;
   color: ${(props) => props.color};
   background-color: #ffffff;
-  padding: 11px 56px 16px 56px;
+  padding: 10px 32px 14px 32px;
   font-size: 18px;
-  border: 2px solid;
+  border: 2.5px solid;
   border-color: ${(props) => props.color};
   border-radius: 8px;
   cursor: pointer;
@@ -42,11 +25,18 @@ const StyledButtonSecondary = styled.button`
   &:hover {
     color:  #0A86E4;
     border-color: #0A86E4;
-}
+  }
   &:active {
     color: #007AD7;
     border-color: #007AD7;
   }
+`;
+
+const StyledIcon = styled.img`
+    margin-right: 10px;
+    height: 18px;
+    width: 14px;
+    vertical-align: sub;
 `;
 
 export const ButtonPrimary = (props) => {
@@ -58,20 +48,15 @@ export const ButtonPrimary = (props) => {
   );
 };
 
-export const ButtonSecondary = (props) => {
-  const { children, color, disabled, ...other } = props;
-  return (
-    <StyledButtonSecondary color={disabled ? "#90C7F1" : color} disabled={disabled} {...other}>
-      {" "}{children}{" "}
-    </StyledButtonSecondary>
-  );
-};
-
 const Week3 = () => {
   return (
       <StyledWrapper>
-          <ButtonPrimary color="#2894E7">Button</ButtonPrimary>
-          <ButtonSecondary color="#2894E7">Button</ButtonSecondary>
+        <ButtonPrimary color="#2894E7">
+            <StyledIcon src={saveIconStroke}/>Save
+        </ButtonPrimary>
+        <ButtonPrimary color="#2894E7">
+            <StyledIcon src={saveIconFull}/>Save
+        </ButtonPrimary>
       </StyledWrapper>
   )
 };

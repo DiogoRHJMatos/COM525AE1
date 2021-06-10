@@ -63,37 +63,25 @@ cenas
 
 img
 
----
-
 ### Research
 
 cenas
-
----
 
 ### Evaluation of guidelines
 
 cenas
 
----
-
 ### Planning and design prototype
 
 img prototype
-
----
 
 ### Code
 
 img polaroid
 
----
-
 ### Screencast
 
 gif
-
----
 
 ### Reflection
 

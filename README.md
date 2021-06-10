@@ -6,15 +6,9 @@
 
 ## Introduction
 
-This repository is a set of reusable React components that offer design solutions to real-world problems. Those components show the broad spectrum of possibilities of coding in React.
-
-Five components have been supported with research, evaluation of guidelines, design prototyping, coding, screencast, and a personal reflection.
-
-You can also see all 9 components, by clicking on the link at the bottom of the hosted page.
+cenas
 
 ---
-
-[Introduction](#Introduction)
 
 [1. Login](#Login)
 

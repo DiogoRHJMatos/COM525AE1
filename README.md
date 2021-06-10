@@ -10,7 +10,7 @@ cenas
 
 ---
 
-[1. Login](#Login)
+[1. Login](#1-Login)
 
 - Research
 - Evaluation of guidelines
@@ -19,7 +19,7 @@ cenas
 - Walkthrough
 - Reflection
 
-[2. Buttons](#Buttons)
+[2. Buttons](#2-Buttons)
 
 - Research
 - Evaluation of guidelines
@@ -28,7 +28,7 @@ cenas
 - Walkthrough
 - Reflection
 
-[3. Navigation Bar](#Navigation-Bar)
+[3. Navigation Bar](#3-Navigation-Bar)
 
 - Research
 - Evaluation of guidelines
@@ -37,7 +37,7 @@ cenas
 - Walkthrough
 - Reflection
 
-[4. Card](#Card)
+[4. Card](#4-Card)
 
 - Research
 - Evaluation of guidelines
@@ -46,7 +46,7 @@ cenas
 - Walkthrough
 - Reflection
 
-[5. Modal](#Modal)
+[5. Modal](#5-Modal)
 
 - Research
 - Evaluation of guidelines

@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 import styled from "styled-components";
 import closeIcon from "./Assets/times-solid.svg";
+import menuIcon from "./Assets/bars-solid.svg";
 
 const StyledWrapper = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
+  float: right;
 `;
 
 const StyledSideNav = styled.div`
   height: 100vh;
-  border-radius: 50px 0 0 50px;
+  border-radius: 40px 0 0 40px;
   width: ${(props) => props.open ? '250px' : '0px'};
   transition: 1s;
   position: fixed;
@@ -43,26 +43,16 @@ const StyledNav = styled.ul`
   }
 `;
 
-const StyledButton = styled.button`
-  font-family: "Segoe UI semibold", Arial, Helvetica;
-  color: #2894E7;
-  border-color: #2894E7;
-  background-color: #ffffff;
-  padding: 10px 45px 15px 45px;
-  font-size: 16px;
-  border: 2px solid;
-  border-radius: 8px;
+const StyledMenuIcon = styled.img`
+  float: left;
+  width: 25px;
+  height: 25px;
+  fill: white;
+  margin: 25px;
   cursor: pointer;
-  margin: 2%;
-  &:hover {
-      color:  #0A86E4;
-      border-color: #0A86E4;
-  }
-  &:active {
-      color: #007AD7;
-      border-color: #007AD7;
-  }
 `;
+
+
 
 const Nav_Component = () => {
 
@@ -89,7 +79,7 @@ const Nav_Component = () => {
               </StyledNav>)
             }
         </StyledSideNav> 
-        <StyledButton onClick={handleOpenClose}> Open Nav </StyledButton>
+        <StyledMenuIcon onClick={handleOpenClose} src={menuIcon} />
       </StyledWrapper>
     </>
   )

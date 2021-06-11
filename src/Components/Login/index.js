@@ -24,7 +24,7 @@ const StyledWrapper = styled.div`
 const StyledContainer = styled.div`
     background: #ffffff;
     border-radius: 15px;
-    height: 464px;
+    height: 510px;
     width: 337px;
 `;
 
@@ -68,6 +68,8 @@ const StyledDivInput = styled.div`
 `;
 
 const StyledErrorText = styled.p`
+    margin-top: 5px;
+    margin-left: 5px;
     color: red;
 `;
 
@@ -92,6 +94,11 @@ const StyledButton = styled.button`
 const StyledForgot = styled.div`
     color: #CBCBCB;
     margin-left: 5px;
+`;
+
+const StyledBottom = styled.div`
+    position: absolute;
+    bottom: 67px;
 `;
 
 const StyledInfo = styled.p`
@@ -130,14 +137,17 @@ const Login_Component = () => {
                     <StyledIcon src={showPassword ? hideIcon : showIcon} onClick={handleClick}/>
                     <StyledErrorText>{errors.password?.message}</StyledErrorText>
                 </p>
-                <StyledForgot>
+                
+                <StyledBottom>
+                    <StyledForgot>
                     Forgot Password?
-                </StyledForgot>
-                <p>
-                    <StyledButton>Sign In</StyledButton>
-                </p>
+                    </StyledForgot>
+                    <p>
+                        <StyledButton>Sign In</StyledButton>
+                    </p>
+                    <StyledInfo>Don't have an account? Sign up</StyledInfo>
+                </StyledBottom>
             </form>
-            <StyledInfo>Don't have an account? Sign up</StyledInfo>
             </StyledDivInput>
             </StyledContainer>
         </StyledWrapper>

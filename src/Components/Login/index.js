@@ -96,11 +96,6 @@ const StyledForgot = styled.div`
     margin-left: 5px;
 `;
 
-const StyledBottom = styled.div`
-    position: absolute;
-    bottom: 67px;
-`;
-
 const StyledInfo = styled.p`
     color: #CBCBCB;
     margin-left: 30px;
@@ -138,7 +133,7 @@ const Login_Component = () => {
                     <StyledErrorText>{errors.password?.message}</StyledErrorText>
                 </p>
                 
-                <StyledBottom>
+                <div>
                     <StyledForgot>
                     Forgot Password?
                     </StyledForgot>
@@ -146,7 +141,7 @@ const Login_Component = () => {
                         <StyledButton>Sign In</StyledButton>
                     </p>
                     <StyledInfo>Don't have an account? Sign up</StyledInfo>
-                </StyledBottom>
+                </div>
             </form>
             </StyledDivInput>
             </StyledContainer>

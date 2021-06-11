@@ -3,6 +3,13 @@ import styled, { keyframes } from "styled-components";
 import bgModal from "./Assets/backgroundModal.jpg";
 import closeIcon from "./Assets/times-icon.svg";
 
+const StyledWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+`;
+
 const StyledModalWrapper = styled.div`
     font-family: "Poppins", sans-serif;
     color: #ffffff;
@@ -159,7 +166,7 @@ const Modal_Component = () => {
 
     return (
     <>
-
+        <StyledWrapper>
         <StyledButtonSecondary onClick={handleClick} color="#2894E7">Show Modal</StyledButtonSecondary>
 
         <Modal show={showModal} onClose={handleClose}>
@@ -170,22 +177,7 @@ const Modal_Component = () => {
             <StyledBackgroundImg src={bgModal}/>
         </Modal>
 
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, voluptate, asperiores facilis distinctio ea quidem unde soluta fuga aliquam aspernatur sequi. Rerum asperiores quod similique rem omnis. Soluta, repellat quos?
-        Molestiae, tempore, facere distinctio, quo aliquid vel eaque qui corrupti quia quam quasi laboriosam rem! Ipsum qui deserunt molestiae, placeat facere eligendi quam! In laborum quae officiis magni laboriosam id!
-        Earum eum debitis quidem. Sunt recusandae at libero maiores natus qui quis facilis fuga dignissimos dolores ipsam sed reiciendis dolor veritatis eum reprehenderit sequi aspernatur velit pariatur non, quaerat impedit.
-        Voluptate id consectetur adipisci incidunt animi quaerat quis numquam ea consequuntur magni itaque explicabo placeat dolorem repellendus hic aut quidem, illo vitae, dicta dolores cupiditate atque perspiciatis dolor aliquam! Dignissimos.
-        Adipisci, quia tempora. Aut repellendus dolorem unde maiores obcaecati recusandae nobis ipsum alias. Id eius, amet atque magni expedita quidem nihil vero repellendus sunt aut quod iure doloremque possimus? Officia?
-        Reiciendis inventore eum dolore, assumenda odio sint, ipsum dolorem pariatur est dolorum temporibus tempora vero necessitatibus sapiente delectus itaque quo? Eligendi distinctio dolor saepe ex voluptates aliquid eveniet molestias quaerat?
-        Tempore dolorem ad nihil sequi! Deleniti facere voluptas architecto accusantium sunt obcaecati! Aperiam qui, porro delectus recusandae eius nam suscipit ratione dignissimos voluptatem quisquam reprehenderit tempora nihil esse non velit?
-        Officiis, enim cupiditate numquam possimus quo quis ullam? Expedita omnis dolorum dolor architecto aspernatur temporibus? Pariatur temporibus animi harum optio assumenda culpa, odit reiciendis deleniti? Perferendis totam earum dignissimos beatae?
-        Laboriosam inventore omnis perferendis dignissimos officia minus consequatur magni excepturi quisquam ullam dolorum porro provident, ab vero aspernatur in ipsa doloribus est, voluptatum id sint? Veritatis obcaecati deserunt modi explicabo.
-        Nulla possimus commodi facilis nobis beatae temporibus fugit? Cumque impedit iure cum necessitatibus quos quod totam ut, expedita iusto officiis alias quae aperiam. Sed aperiam quae exercitationem reprehenderit ipsum odio?
-        Fugit rem nostrum et placeat, debitis animi nobis corrupti facere expedita illo vitae. Quia, aut doloribus nesciunt rem possimus nihil quae, voluptates natus, suscipit perferendis deserunt porro magni veniam laboriosam?
-        Velit laudantium nemo facilis quam quo aliquid, quidem rerum voluptatum, eligendi pariatur, unde autem vitae iure omnis suscipit rem provident optio praesentium. Obcaecati hic harum quaerat perferendis ipsam nemo est?
-        Corporis quae fugit aut dolor voluptates, iusto aliquam delectus facilis molestiae impedit maiores nemo natus consequuntur dolorem doloremque vel blanditiis! Recusandae aspernatur quam hic ipsam a ex laborum architecto sequi?
-        Aspernatur unde voluptatibus, quas quia itaque ea sunt laborum. Hic accusantium similique sequi natus numquam alias officiis tenetur dignissimos ipsum! Amet laborum id labore fugit praesentium sit incidunt ad ab.
-        Accusantium rerum facilis tempora modi fugiat, voluptatibus labore ea nam culpa perspiciatis, repellendus itaque sint ratione iusto. Voluptate sunt culpa quam sed officia adipisci quod itaque vero, molestiae, possimus totam?
-        Totam numquam similique ipsum doloribus esse nulla cumque beatae nesciunt officiis.
+        </StyledWrapper>
         </>
     )
 }

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styled from "styled-components";
 import closeIcon from "./Assets/times-solid.svg";
-import { ButtonPrimary } from "../Buttons";
 
 const StyledWrapper = styled.div`
   display: flex;
@@ -12,20 +11,21 @@ const StyledWrapper = styled.div`
 
 const StyledSideNav = styled.div`
   height: 100vh;
+  border-radius: 50px 0 0 50px;
   width: ${(props) => props.open ? '250px' : '0px'};
   transition: 1s;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   background: #2894E7;
 `;
 
 const StyledCloseIcon = styled.img`
-  float: right;
-  width: 25px;
-  height: 25px;
+  float: left;
+  width: 15px;
+  height: 15px;
   fill: white;
-  margin: 1rem 1 rem;
+  margin: 25px;
   cursor: pointer;
 `;
 
@@ -34,13 +34,33 @@ const StyledNav = styled.ul`
   color: white;
   flex-direction: column;
   & li {
-    text-align: center;
     list-style: none;
     margin-top: 4rem;
     cursor: pointer;
     &:hover {
-      color: grey;
+      font-weight: bold;
     }
+  }
+`;
+
+const StyledButton = styled.button`
+  font-family: "Segoe UI semibold", Arial, Helvetica;
+  color: #2894E7;
+  border-color: #2894E7;
+  background-color: #ffffff;
+  padding: 10px 45px 15px 45px;
+  font-size: 16px;
+  border: 2px solid;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 2%;
+  &:hover {
+      color:  #0A86E4;
+      border-color: #0A86E4;
+  }
+  &:active {
+      color: #007AD7;
+      border-color: #007AD7;
   }
 `;
 
@@ -65,10 +85,11 @@ const Nav_Component = () => {
                 <li>Home</li>
                 <li>About</li>
                 <li>Privacy</li>
+                <li>Contacts</li>
               </StyledNav>)
             }
         </StyledSideNav> 
-      <ButtonPrimary onClick={handleOpenClose} color="#1200ee"> Open Nav </ButtonPrimary>
+        <StyledButton onClick={handleOpenClose}> Open Nav </StyledButton>
       </StyledWrapper>
     </>
   )

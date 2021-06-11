@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/COM525AE1/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/COM525AE1/static/js/main.e6e1eb79.chunk.js",
-    "main.js.map": "/COM525AE1/static/js/main.e6e1eb79.chunk.js.map",
+    "main.css": "/COM525AE1/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/COM525AE1/static/js/main.69256161.chunk.js",
+    "main.js.map": "/COM525AE1/static/js/main.69256161.chunk.js.map",
     "runtime-main.js": "/COM525AE1/static/js/runtime-main.825df638.js",
     "runtime-main.js.map": "/COM525AE1/static/js/runtime-main.825df638.js.map",
-    "static/js/2.50e47013.chunk.js": "/COM525AE1/static/js/2.50e47013.chunk.js",
-    "static/js/2.50e47013.chunk.js.map": "/COM525AE1/static/js/2.50e47013.chunk.js.map",
+    "static/js/2.1c27af34.chunk.js": "/COM525AE1/static/js/2.1c27af34.chunk.js",
+    "static/js/2.1c27af34.chunk.js.map": "/COM525AE1/static/js/2.1c27af34.chunk.js.map",
     "static/js/3.f533b10a.chunk.js": "/COM525AE1/static/js/3.f533b10a.chunk.js",
     "static/js/3.f533b10a.chunk.js.map": "/COM525AE1/static/js/3.f533b10a.chunk.js.map",
     "index.html": "/COM525AE1/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/COM525AE1/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.50e47013.chunk.js.LICENSE.txt": "/COM525AE1/static/js/2.50e47013.chunk.js.LICENSE.txt",
+    "static/css/main.2ae47eeb.chunk.css.map": "/COM525AE1/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.1c27af34.chunk.js.LICENSE.txt": "/COM525AE1/static/js/2.1c27af34.chunk.js.LICENSE.txt",
     "static/media/backgroundModal.f5c5f920.jpg": "/COM525AE1/static/media/backgroundModal.f5c5f920.jpg",
+    "static/media/bookmark-regular.61e9d3ba.svg": "/COM525AE1/static/media/bookmark-regular.61e9d3ba.svg",
+    "static/media/bookmark-solid.d214e7a1.svg": "/COM525AE1/static/media/bookmark-solid.d214e7a1.svg",
     "static/media/hide.7e5c64cf.svg": "/COM525AE1/static/media/hide.7e5c64cf.svg",
     "static/media/runner.94656b21.jpg": "/COM525AE1/static/media/runner.94656b21.jpg",
     "static/media/show.3466c274.svg": "/COM525AE1/static/media/show.3466c274.svg",
@@ -21,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.825df638.js",
-    "static/js/2.50e47013.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.e6e1eb79.chunk.js"
+    "static/js/2.1c27af34.chunk.js",
+    "static/css/main.2ae47eeb.chunk.css",
+    "static/js/main.69256161.chunk.js"
   ]
 }

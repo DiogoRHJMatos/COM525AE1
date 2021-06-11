@@ -1,78 +1,130 @@
-import React, { useState, useEffect } from 'react';
-import styled, { keyframes } from 'styled-components';
-
-const time = '1s';
-const funkyBackground = 'linear-gradient(-45deg, #ee7752, #e73c7e, #23d4ab)';
-const setAnimation = (from, to) => keyframes({ from: from, to: to })
+import React, { useState } from 'react';
+import styled from "styled-components";
 
 const StyledWrapper = styled.div`
-    animation: ${time} ${({ showBackground }) => showBackground && setAnimation({ background: 'white' }, { background: funkyBackground })} linear;
-    animation-fill-mode: forwards;
+    font-family: "Segoe UI semibold", Arial, Helvetica;
+    background: #F1F3F5;
     display: flex;
-    height: 100vh;
-    width: 100vw;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
 `;
 
-const StyledButton = styled.div`
-    border-radius: 5rem;
-    border: solid 0.5rem;
-    background-color: #313130;
-    color: #b95951;
-    height: 10rem;
-    width: 20rem;
+const StyledContainer = styled.div`
+    background: #ffffff;
+    border-radius: 15px;
+    height: 510px;
+    width: 337px;
 `;
 
-const StyledSwitch = styled.div`
-    border-radius: 5rem;
-    animation: ${time} ${({ active }) => active && setAnimation({ marginLeft: 0 }, { marginLeft: '180px' })} linear;
-    animation-fill-mode: forwards;
-    border: solid 0.3125rem;
-    height: 9rem;
-    width: 8.125rem;
-    margin: 0.7rem;
-    background: linear-gradient(180deg, #4b4a49, #313130);
-    margin: 0.4rem 0 0.2rem 0.1rem;
-     
+const StyledHeader = styled.h1`
+    color: #3C4044;
+    margin-left: 20px;
+    font-size: 24px;
 `;
 
+const StyledLine = styled.hr`
+  color: #FFFFFF;
+  width: 296px;
+`;
 
-const Toggle = (props) => {
-    const [active, setActive] = useState(false);
-    const { onActive, onNotActive } = props;
+const StyledLabel = styled.h2`
+    color: #3C4044;
+    font-size: 20px;
+    margin-left: 5px;
+`;
 
-    useEffect(() => {
-        if (!active) {
-            onNotActive();
-            return;
-        }
+const StyledIcon = styled.img`
+    height: 24px;
+    width: 24px;
+    margin-left: -40px;
+    margin-bottom: -5px;
+`;
 
-        onActive();
+const StyledInput = styled.input`
+    background: #ffffff;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+    height: 51px;
+    width: 271px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #CBCBCB;
+`;
 
-    }, [active])
+const StyledDivInput = styled.div`
+    margin-left: 20px;
+`;
 
+const StyledErrorText = styled.p`
+    margin-top: 5px;
+    margin-left: 5px;
+    color: red;
+`;
 
-    const handleClick = () => setActive(!active);
+const StyledButton = styled.button`
+    font-family: "Segoe UI semibold", Arial, Helvetica;
+    color: #ffffff;
+    background-color: #2894E7;
+    padding: 11px 56px 16px 56px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 296px;
+    &:hover {
+        background: #0A86E4;
+    }
+    &:active {
+        background: #007AD7;
+    }
+`;
 
-    return (<StyledButton> <StyledSwitch active={active} onClick={handleClick} /> </StyledButton>)
-}
+const StyledForgot = styled.div`
+    color: #CBCBCB;
+    margin-left: 5px;
+`;
+
+const StyledInfo = styled.p`
+    color: #CBCBCB;
+    margin-left: 30px;
+`;
 
 
 const Card_Component = () => {
 
-    const [showBackground, setShowBackground] = useState(false);
-    const handleNotActive = () => setShowBackground(false);
-    const handleActive = () => setShowBackground(true);
 
-    return (<StyledWrapper showBackground={showBackground}>
-        <Toggle onNotActive={handleNotActive} onActive={handleActive} />
-        
-    </StyledWrapper>)
-}
+    return (
+        <StyledWrapper>
+            <StyledContainer>
+            <StyledHeader>Sign In</StyledHeader>
+            <StyledLine></StyledLine>
+            <StyledDivInput>
+                
+                <StyledLabel>Email</StyledLabel>
+                <p>
+                    <StyledInput type="text" name="email" placeholder="example@email.com"/>
+                </p>
 
-
-
-
+                <StyledLabel>Password</StyledLabel>
+                <p>
+                    <StyledInput type="password" name="password" placeholder="••••••••••••••••"/>
+                </p>
+                
+                <div>
+                    <StyledForgot>
+                    Forgot Password?
+                    </StyledForgot>
+                    <p>
+                        <StyledButton>Sign In</StyledButton>
+                    </p>
+                    <StyledInfo>Don't have an account? Sign up</StyledInfo>
+                </div>
+            </StyledDivInput>
+            </StyledContainer>
+        </StyledWrapper>
+    );
+};
 
 export default Card_Component;

@@ -59,7 +59,7 @@ const StyledButton = styled.button`
     }
 `;
 
-const Week4 = () => {
+const Login_Component = () => {
     const [showPassword, setShowPassword] = useState(false);
 
     const { register, handleSubmit, errors } = useForm({resolver: yupResolver(schema)});
@@ -91,4 +91,4 @@ const Week4 = () => {
     );
 };
 
-export default Week4;
+export default Login_Component;

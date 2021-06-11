@@ -1,9 +1,9 @@
 import React from 'react';
-import Week3 from "./Components/Week3";
-import Week4 from "./Components/Week4";
-import Week5 from "./Components/Week5";
+import Buttons_Component from "./Components/Buttons";
+import Login_Component from "./Components/Login";
+import Nav_Component from "./Components/Nav";
 import Modal_Component from "./Components/Modal";
-import Week9 from "./Components/Card";
+import Card_Component from "./Components/Card";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
@@ -11,13 +11,13 @@ const Home = () => (
 <nav>
   <ul>
     <li>
-      <Link to="/week-4">Login</Link>
+      <Link to="/Login">Login</Link>
     </li>
     <li>
-      <Link to="/week-3">Buttons</Link>
+      <Link to="/Buttons">Buttons</Link>
     </li>
     <li>
-      <Link to="/week-5">Navigation Bar</Link>
+      <Link to="/Nav">Navigation Bar</Link>
     </li>
     <li>
     <Link to="/Card">Card</Link>
@@ -32,14 +32,14 @@ const Home = () => (
 const App = () => (
   <Router> 
     <Switch>
-      <Route path="/week-4">
-        <Week3 /> 
+      <Route path="/Login">
+        <Login_Component /> 
       </Route>
-      <Route path="/week-3">
-        <Week4 /> 
+      <Route path="/Buttons">
+        <Buttons_Component /> 
       </Route>
-      <Route path="/week-5">
-        <Week5 /> 
+      <Route path="/Nav">
+        <Nav_Component /> 
       </Route>
       <Route path="/Card">
         <Card_Component /> 

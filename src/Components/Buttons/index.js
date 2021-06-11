@@ -48,7 +48,7 @@ export const ButtonPrimary = (props) => {
   );
 };
 
-const Week3 = () => {
+const Buttons_Component = () => {
   return (
       <StyledWrapper>
         <ButtonPrimary color="#2894E7">
@@ -61,4 +61,4 @@ const Week3 = () => {
   )
 };
 
-export default Week3;
+export default Buttons_Component;

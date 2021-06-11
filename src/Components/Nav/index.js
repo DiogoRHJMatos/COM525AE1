@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from "styled-components";
 import closeIcon from "./Assets/times-solid.svg";
-import { ButtonPrimary } from "../Week3";
+import { ButtonPrimary } from "../Buttons";
 
 const StyledWrapper = styled.div`
   display: flex;
@@ -17,7 +17,7 @@ const StyledSideNav = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  background: #999999;
+  background: #2894E7;
 `;
 
 const StyledCloseIcon = styled.img`
@@ -44,7 +44,7 @@ const StyledNav = styled.ul`
   }
 `;
 
-const Week5 = () => {
+const Nav_Component = () => {
 
   const [navOpen, setNavOpen] = useState(false);
 
@@ -74,4 +74,4 @@ const Week5 = () => {
   )
 };
 
-export default Week5;
+export default Nav_Component;

@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
-import runner from "./Assets/runner.jpg";
 import hideIcon from "./Assets/hide.svg";
 import showIcon from "./Assets/show.svg";
 
@@ -13,6 +12,8 @@ const schema = yup.object().shape({
   });
 
 const StyledWrapper = styled.div`
+    font-family: "Segoe UI semibold", Arial, Helvetica;
+    background: #F1F3F5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,25 +21,50 @@ const StyledWrapper = styled.div`
     height: 100vh;
 `;
 
-const StyledHeader = styled.h1`
-    color: #1e57f1;
-    margin-left: 2rem;
+const StyledContainer = styled.div`
+    background: #ffffff;
+    border-radius: 15px;
+    height: 464px;
+    width: 337px;
 `;
 
-const StyledInput = styled.input`
-    background: #ffffff;
-    border: 1px solid #c7c7c7;
-    height: 63px;
-    width: 337px;
-    padding-left: 10px;
-    font-size: 18px;
+const StyledHeader = styled.h1`
+    color: #3C4044;
+    margin-left: 20px;
+    font-size: 24px;
+`;
+
+const StyledLine = styled.hr`
+  color: #FFFFFF;
+  width: 296px;
+`;
+
+const StyledLabel = styled.h2`
+    color: #3C4044;
+    font-size: 20px;
+    margin-left: 5px;
 `;
 
 const StyledIcon = styled.img`
     height: 24px;
     width: 24px;
     margin-left: -40px;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
+`;
+
+const StyledInput = styled.input`
+    background: #ffffff;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+    height: 51px;
+    width: 271px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #CBCBCB;
+`;
+
+const StyledDivInput = styled.div`
+    margin-left: 20px;
 `;
 
 const StyledErrorText = styled.p`
@@ -46,18 +72,33 @@ const StyledErrorText = styled.p`
 `;
 
 const StyledButton = styled.button`
-    height: 63px;
-    width: 350px;
-    background: #1e57f1;
+    font-family: "Segoe UI semibold", Arial, Helvetica;
     color: #ffffff;
-    text-align: center;
+    background-color: #2894E7;
+    padding: 11px 56px 16px 56px;
     font-size: 18px;
     border: 0;
+    border-radius: 10px;
     cursor: pointer;
+    width: 296px;
     &:hover {
-        background: red;
+        background: #0A86E4;
+    }
+    &:active {
+        background: #007AD7;
     }
 `;
+
+const StyledForgot = styled.div`
+    color: #CBCBCB;
+    margin-left: 5px;
+`;
+
+const StyledInfo = styled.p`
+    color: #CBCBCB;
+    margin-left: 30px;
+`;
+
 
 const Login_Component = () => {
     const [showPassword, setShowPassword] = useState(false);
@@ -71,22 +112,34 @@ const Login_Component = () => {
 
     return (
         <StyledWrapper>
-            <img src={runner}/>
-            <StyledHeader>Sally</StyledHeader>
+            <StyledContainer>
+            <StyledHeader>Sign In</StyledHeader>
+            <StyledLine></StyledLine>
+            <StyledDivInput>
             <form onSubmit={handleSubmit(onSubmit)}>
+                
+                <StyledLabel>Email</StyledLabel>
                 <p>
-                    <StyledInput type="text" name="email" placeholder="Email" ref={register()}/>
+                    <StyledInput type="text" name="email" placeholder="example@email.com" ref={register()}/>
                     <StyledErrorText>{errors.email?.message}</StyledErrorText>
                 </p>
+
+                <StyledLabel>Password</StyledLabel>
                 <p>
-                    <StyledInput type={showPassword ? "text" : "password"} name="password" placeholder="Password" ref={register()}/>
+                    <StyledInput type={showPassword ? "text" : "password"} name="password" placeholder="••••••••••••••••" ref={register()}/>
                     <StyledIcon src={showPassword ? hideIcon : showIcon} onClick={handleClick}/>
                     <StyledErrorText>{errors.password?.message}</StyledErrorText>
                 </p>
+                <StyledForgot>
+                    Forgot Password?
+                </StyledForgot>
                 <p>
-                    <StyledButton>Login</StyledButton>
+                    <StyledButton>Sign In</StyledButton>
                 </p>
             </form>
+            <StyledInfo>Don't have an account? Sign up</StyledInfo>
+            </StyledDivInput>
+            </StyledContainer>
         </StyledWrapper>
     );
 };

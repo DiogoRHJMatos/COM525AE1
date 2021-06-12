@@ -22,45 +22,32 @@ const StyledWrapper = styled.div`
       
       text-align: center;
       list-style: none;
-      margin-top: 10px;
       cursor: pointer;
-      color: #ffffff;
-      background-color: #999999;
-      padding: 12px 56px 15px 56px;
-      font-size: 18px;
       border: 0;
       border-radius: 10px;
       right: 0px;
       bottom: 0px;
-      width: 197px;
-      margin-bottom: 40px;
-      &:hover {
-          background: #E65C0C;
-      }
-      &:active {
-          background: #D84F00;
-      }
     }
 `;
 
-const StyledPrimary = styled.button`
+const StyledButton = styled.button`
   font-family: "Segoe UI semibold", Arial, Helvetica;
   color: #ffffff;
-  background-color: #E86F29;
-  padding: 12px 56px 15px 56px;
+  background-color: #CCCCCC;
+  padding: 12px 45px 15px 45px;
   font-size: 18px;
   border: 0;
   border-radius: 10px;
   cursor: pointer;
   right: 0px;
   bottom: 0px;
-  width: 197px;
+  width: 220px;
   margin-bottom: 40px;
-  &:hover {
-      background: #E65C0C;
+  &:hover { 
+      background: ${(props) => props.hover};
   }
   &:active {
-      background: #D84F00;
+      background: ${(props) => props.active};
   }
 `;
 
@@ -68,19 +55,29 @@ const Home = () => (
 <StyledWrapper>
   <ul>
     <li>
-      <Link to="/Login">Login</Link>
+      <Link to="/Login">
+        <StyledButton hover="#0A86E4" active="#007AD7">Login</StyledButton>
+      </Link>
     </li>
     <li>
-      <Link to="/Buttons">Buttons</Link>
+      <Link to="/Buttons">
+        <StyledButton hover="#E65C0C" active="#D84F00">Buttons</StyledButton>
+      </Link>
     </li>
     <li>
-      <Link to="/Nav">Navigation Bar</Link>
+      <Link to="/Nav">
+        <StyledButton hover="#007AD7" active="#007AD7">Navigation Bar</StyledButton>
+      </Link>
     </li>
     <li>
-    <Link to="/Card">Card</Link>
+      <Link to="/Card">
+        <StyledButton hover="#E58B0C" active="#D87F00">Card</StyledButton>
+      </Link>
     </li>
     <li>
-      <Link to="/Modal">Modal</Link>
+      <Link to="/Modal">
+        <StyledButton hover="#E58B0C" active="#D87F00">Modal</StyledButton>
+      </Link>
     </li>
   </ul>
 </StyledWrapper>

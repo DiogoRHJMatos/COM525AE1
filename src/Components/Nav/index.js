@@ -21,24 +21,42 @@ const StyledSideNav = styled.div`
 
 const StyledCloseIcon = styled.img`
   float: left;
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
   fill: white;
-  margin: 25px;
+  margin: 25px 0px 0px 25px;
   cursor: pointer;
 `;
 
-const StyledNav = styled.ul`
-  display: flex;
-  color: white;
-  flex-direction: column;
-  & li {
-    list-style: none;
-    margin-top: 4rem;
-    cursor: pointer;
-    &:hover {
-      font-weight: bold;
-    }
+const StyledNav = styled.div`
+  color: #2894E7;
+  background: #2894E7;
+  cursor: pointer;
+  margin-top: 60px;
+  &:hover {
+    font-weight: bold;
+  }
+
+`;
+
+const Styleddiv = styled.div`
+  font-family: "Segoe UI semibold", Arial, Helvetica;
+  color: #ffffff;
+  background-color: #2894E7;
+  text-align: center;
+  padding: 40px 40px 40px 40px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  width: 169
+  px;
+  position: relative;
+  &:hover { 
+    background: #007AD7;
+  }
+  &:active {
+    background: #0A86E4;
   }
 `;
 
@@ -80,10 +98,21 @@ const Nav_Component = () => {
         <StyledSideNav open={navOpen}>
           <StyledCloseIcon onClick={handleClose} src={closeIcon} />
             {navOpen && (<StyledNav>
-                <li>Home</li>
-                <li>About</li>
-                <li>Privacy</li>
-                <li>Contacts</li>
+                <Styleddiv>
+                  Home
+                </Styleddiv>
+                <Styleddiv>
+                  Services
+                </Styleddiv>
+                <Styleddiv>
+                  About
+                </Styleddiv>
+                <Styleddiv>
+                  FAQ
+                </Styleddiv>
+                <Styleddiv>
+                  Contacts
+                </Styleddiv>
               </StyledNav>)
             }
         </StyledSideNav> 

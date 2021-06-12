@@ -70,7 +70,7 @@ const StyledDivInput = styled.div`
 const StyledErrorText = styled.p`
     margin-top: 5px;
     margin-left: 5px;
-    color: red;
+    color: #ED4956;
 `;
 
 const StyledButton = styled.button`

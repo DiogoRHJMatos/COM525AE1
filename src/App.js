@@ -71,7 +71,7 @@ const Home = () => (
     </li>
     <li>
       <Link to="/Card">
-        <StyledButton hover="#E58B0C" active="#D87F00">Card</StyledButton>
+        <StyledButton hover="#E58B0C" active="#D87F00">Cards</StyledButton>
       </Link>
     </li>
     <li>

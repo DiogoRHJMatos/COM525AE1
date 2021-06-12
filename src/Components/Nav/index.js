@@ -4,9 +4,8 @@ import closeIcon from "./Assets/times-solid.svg";
 import menuIcon from "./Assets/bars-solid.svg";
 
 const StyledWrapper = styled.div`
-  display: flex;
+  background-color: #F1F3F5;
   height: 100vh;
-  float: right;
 `;
 
 const StyledSideNav = styled.div`
@@ -44,12 +43,21 @@ const StyledNav = styled.ul`
 `;
 
 const StyledMenuIcon = styled.img`
-  float: left;
+  float: right;
   width: 25px;
   height: 25px;
   fill: white;
   margin: 25px;
   cursor: pointer;
+`;
+
+const StyledText = styled.div`
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 
@@ -80,6 +88,7 @@ const Nav_Component = () => {
             }
         </StyledSideNav> 
         <StyledMenuIcon onClick={handleOpenClose} src={menuIcon} />
+        <StyledText>click on the burguer menu</StyledText>
       </StyledWrapper>
     </>
   )

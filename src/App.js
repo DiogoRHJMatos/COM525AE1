@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from "styled-components";
 import Buttons_Component from "./Components/Buttons";
 import Login_Component from "./Components/Login";
 import Nav_Component from "./Components/Nav";
@@ -7,8 +8,64 @@ import Card_Component from "./Components/Card";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
+const StyledWrapper = styled.div`
+    font-family: "Segoe UI semibold", Arial, Helvetica;
+    background: #F1F3F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    
+    
+    & li {
+      
+      text-align: center;
+      list-style: none;
+      margin-top: 10px;
+      cursor: pointer;
+      color: #ffffff;
+      background-color: #999999;
+      padding: 12px 56px 15px 56px;
+      font-size: 18px;
+      border: 0;
+      border-radius: 10px;
+      right: 0px;
+      bottom: 0px;
+      width: 197px;
+      margin-bottom: 40px;
+      &:hover {
+          background: #E65C0C;
+      }
+      &:active {
+          background: #D84F00;
+      }
+    }
+`;
+
+const StyledPrimary = styled.button`
+  font-family: "Segoe UI semibold", Arial, Helvetica;
+  color: #ffffff;
+  background-color: #E86F29;
+  padding: 12px 56px 15px 56px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  right: 0px;
+  bottom: 0px;
+  width: 197px;
+  margin-bottom: 40px;
+  &:hover {
+      background: #E65C0C;
+  }
+  &:active {
+      background: #D84F00;
+  }
+`;
+
 const Home = () => (
-<nav>
+<StyledWrapper>
   <ul>
     <li>
       <Link to="/Login">Login</Link>
@@ -26,7 +83,7 @@ const Home = () => (
       <Link to="/Modal">Modal</Link>
     </li>
   </ul>
-</nav>
+</StyledWrapper>
 );
 
 const App = () => (

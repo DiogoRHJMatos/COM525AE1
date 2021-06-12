@@ -1,9 +1,8 @@
 import React from 'react';
 import styled from "styled-components";
-import saveIconStroke from "./Assets/bookmark-regular.svg";
-import saveIconFull from "./Assets/bookmark-solid.svg";
 
 const StyledWrapper = styled.div`
+  background: #F1F3F5;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -11,52 +10,180 @@ const StyledWrapper = styled.div`
   align-items: center;
 `;
 
-const StyledButtonPrimary = styled.button`
+const StyledPrimary = styled.button`
   font-family: "Segoe UI semibold", Arial, Helvetica;
-  color: ${(props) => props.color};
-  background-color: #ffffff;
-  padding: 10px 32px 14px 32px;
+  color: #ffffff;
+  background-color: #E86F29;
+  padding: 12px 56px 15px 56px;
   font-size: 18px;
-  border: 2.5px solid;
-  border-color: ${(props) => props.color};
-  border-radius: 8px;
+  border: 0;
+  border-radius: 10px;
   cursor: pointer;
-  margin: 2%;
+  right: 0px;
+  bottom: 0px;
+  width: 197px;
+  margin-bottom: 40px;
   &:hover {
-    color:  #0A86E4;
-    border-color: #0A86E4;
+      background: #E65C0C;
   }
   &:active {
-    color: #007AD7;
-    border-color: #007AD7;
+      background: #D84F00;
   }
 `;
 
-const StyledIcon = styled.img`
-    margin-right: 10px;
-    height: 18px;
-    width: 14px;
-    vertical-align: sub;
+const StyledPStates = styled.button`
+  font-family: "Segoe UI semibold", Arial, Helvetica;
+  color: #ffffff;
+  background-color: ${(props) => props.color};
+  padding: 12px 56px 15px 56px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 10px;
+  right: 0px;
+  bottom: 0px;
+  width: 197px;
+  margin-bottom: 20px;
 `;
+
+const StyledSecondary = styled.button`
+  font-family: "Segoe UI semibold", Arial, Helvetica;
+  color: #E86F29;
+  border-color: #E86F29;
+  background-color: #ffffff;
+  height: 52px;
+  width: 197px;
+  font-size: 18px;
+  border: 3px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 25px;
+  margin-bottom: 40px;
+  &:hover {
+      color:  #E65C0C;
+      border-color: #E65C0C;
+  }
+  &:active {
+      color: #D84F00;
+      border-color: #D84F00;
+  }
+`;
+
+const StyledSStates = styled.button`
+  font-family: "Segoe UI semibold", Arial, Helvetica;
+  color: ${(props) => props.color};
+  border-color: ${(props) => props.color};
+  background-color: #ffffff;
+  height: 52px;
+  width: 197px;
+  font-size: 18px;
+  border: 3px solid;
+  border-radius: 10px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+`;
+
 
 export const ButtonPrimary = (props) => {
   const { children, color, disabled, ...other } = props;
   return (
-    <StyledButtonPrimary color={disabled ? "#90C7F1" : color} disabled={disabled} {...other}>
+    <StyledPrimary color={disabled ? "#F3B693" : color} disabled={disabled} {...other}>
       {" "}{children}{" "}
-    </StyledButtonPrimary>
+    </StyledPrimary>
+  );
+};
+
+export const ButtonSecondary = (props) => {
+  const { children, color, disabled, ...other } = props;
+  return (
+    <StyledSecondary color={disabled ? "#F3B693" : color} disabled={disabled} {...other}>
+      {" "}{children}{" "}
+    </StyledSecondary>
+  );
+};
+
+export const ButtonPStates = (props) => {
+  const { children, color, disabled, ...other } = props;
+  return (
+    <StyledPStates color={disabled ? "#F3B693" : color} disabled={disabled} {...other}>
+      {" "}{children}{" "}
+    </StyledPStates>
+  );
+};
+
+export const ButtonSStates = (props) => {
+  const { children, color, disabled, ...other } = props;
+  return (
+    <StyledSStates color={disabled ? "#F3B693" : color} disabled={disabled} {...other}>
+      {" "}{children}{" "}
+    </StyledSStates>
   );
 };
 
 const Buttons_Component = () => {
   return (
       <StyledWrapper>
-        <ButtonPrimary color="#2894E7">
-            <StyledIcon src={saveIconStroke}/>Save
-        </ButtonPrimary>
-        <ButtonPrimary color="#2894E7">
-            <StyledIcon src={saveIconFull}/>Save
-        </ButtonPrimary>
+        <table>
+          <tr>
+            <th>
+              <ButtonPrimary color="#E86F29">
+                primary
+              </ButtonPrimary>
+            </th>
+            <th>
+              <ButtonSecondary color="#E86F29">
+                secondary
+              </ButtonSecondary>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <StyledPStates color="#E86F29">
+                default
+              </StyledPStates>
+            </td>
+            <td>
+              <StyledSStates color="#E86F29">
+                default
+              </StyledSStates>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <StyledPStates color="#E65C0C">
+                hover
+              </StyledPStates>
+            </td>
+            <td>
+              <StyledSStates color="#E65C0C">
+                hover
+              </StyledSStates>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <StyledPStates color="#D84F00">
+                active
+              </StyledPStates>
+            </td>
+            <td>
+              <StyledSStates color="#D84F00">
+                active
+              </StyledSStates>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ButtonPStates disabled>
+                disabled
+              </ButtonPStates>
+            </td>
+            <td>
+              <ButtonSStates disabled>
+                disabled
+              </ButtonSStates>
+            </td>
+          </tr>
+        </table>
       </StyledWrapper>
   )
 };

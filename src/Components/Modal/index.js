@@ -4,10 +4,11 @@ import bgModal from "./Assets/WS.jpg";
 import closeIcon from "./Assets/times-icon.svg";
 
 const StyledWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+    background: #F1F3F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 `;
 
 const StyledModalWrapper = styled.div`
@@ -101,9 +102,10 @@ const StyledButtonSecondary = styled.button`
     color: #E89929;
     border-color: #E89929;
     background-color: #ffffff;
-    padding: 10px 45px 15px 45px;
-    font-size: 16px;
-    border: 2px solid;
+    height: 52px;
+    width: 197px;
+    font-size: 18px;
+    border: 3px solid;
     border-radius: 10px;
     cursor: pointer;
     margin: 2%;

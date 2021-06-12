@@ -54,13 +54,13 @@ const StyledIcon = styled.img`
 
 const StyledInput = styled.input`
     background: #ffffff;
-    border: 2px solid #EDEDED;
+    border: 2px solid #CBCBCB;
     border-radius: 10px;
     height: 51px;
     width: 271px;
     padding-left: 20px;
     font-size: 18px;
-    color: #CBCBCB;
+    color: #3C4044;
 `;
 
 const StyledDivInput = styled.div`
@@ -97,7 +97,7 @@ const StyledForgot = styled.div`
 `;
 
 const StyledInfo = styled.p`
-    color: #CBCBCB;
+    color: #3C4044;
     margin-left: 30px;
 `;
 

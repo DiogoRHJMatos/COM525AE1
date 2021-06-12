@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled, { keyframes } from "styled-components";
-import bgModal from "./Assets/backgroundModal.jpg";
+import bgModal from "./Assets/WS.jpg";
 import closeIcon from "./Assets/times-icon.svg";
 
 const StyledWrapper = styled.div`
@@ -19,8 +19,7 @@ const StyledModalWrapper = styled.div`
     height: 100vh;
     top: 0;
     z-index: 1;
-    background: #11365370;
-    oppacity: 0.6%;
+    background-color: #11365360;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,37 +52,32 @@ const StyledBackgroundImg = styled.img`
 `;
 
 const StyledH1 = styled.h1`
-    position: absolute;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.16);
     font-family: 'Rubik', sans-serif;
-    font-size: 46px;
-    margin-left: 65px;
-    margin-top: 133px;
+    font-size: 52px;
+    margin: 0px;
 `;
 
 const StyledH2 = styled.h2`
-    position: absolute;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.16);
     font-family: 'Rubik', sans-serif;
     font-size: 32px;
-    margin-left: 65px;
-    margin-top: 187.5px;
+    margin: 0px;
 `;
 
-const StyledP = styled.p`
+const StyledModalText = styled.div`
+    width: 334px;
+    text-align: center;
     position: absolute;
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    width: 315px;
-    height: 52px;
-    bottom: 0px;
-    margin-left: 65px;
-    margin-bottom: 67px;
+    margin-left: 198px;
+    margin-top: 139px;
 `;
 
 const StyledButtonPrimary = styled.button`
     position: absolute;
     font-family: "Segoe UI semibold", Arial, Helvetica;
     color: #ffffff;
-    background-color: #2894E7;
+    background-color: #E89929;
     padding: 11px 56px 16px 56px;
     font-size: 18px;
     border: 0;
@@ -91,21 +85,21 @@ const StyledButtonPrimary = styled.button`
     cursor: pointer;
     right: 0px;
     bottom: 0px;
-    margin-right: 65px;
+    margin-right: 267px;
     margin-bottom: 67px;
     width: 197px;
     &:hover {
-        background: #0A86E4;
+        background: #E58B0C;
     }
     &:active {
-        background: #007AD7;
+        background: #D87F00;
     }
 `;
 
 const StyledButtonSecondary = styled.button`
     font-family: "Segoe UI semibold", Arial, Helvetica;
-    color: #2894E7;
-    border-color: #2894E7;
+    color: #E89929;
+    border-color: #E89929;
     background-color: #ffffff;
     padding: 10px 45px 15px 45px;
     font-size: 16px;
@@ -114,12 +108,12 @@ const StyledButtonSecondary = styled.button`
     cursor: pointer;
     margin: 2%;
     &:hover {
-        color:  #0A86E4;
-        border-color: #0A86E4;
+        color:  #E58B0C;
+        border-color: #E58B0C;
     }
     &:active {
-        color: #007AD7;
-        border-color: #007AD7;
+        color: #D87F00;
+        border-color: #D87F00;
     }
 `;
 
@@ -159,13 +153,14 @@ const Modal_Component = () => {
     return (
     <>
         <StyledWrapper>
-        <StyledButtonSecondary onClick={handleClick} color="#2894E7">Show Modal</StyledButtonSecondary>
+        <StyledButtonSecondary onClick={handleClick}>Show Modal</StyledButtonSecondary>
 
         <Modal show={showModal} onClose={handleClose}>
-            <StyledH1>Banff</StyledH1>
-            <StyledH2>National Park</StyledH2>
-            <StyledP>You will never run out of places to discover in this winter wonderland.</StyledP>
-            <StyledButtonPrimary color="#2894E7">Book Now</StyledButtonPrimary>
+            <StyledModalText>
+                <StyledH1>White Sands</StyledH1>
+                <StyledH2>National Park</StyledH2>
+            </StyledModalText>
+            <StyledButtonPrimary>Book Now</StyledButtonPrimary>
             <StyledBackgroundImg src={bgModal}/>
         </Modal>
 

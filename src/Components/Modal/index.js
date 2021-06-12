@@ -29,15 +29,7 @@ const StyledModalWrapper = styled.div`
 const StyledModal = styled.div`
     position:fixed;
     z-index: 2;
-    border-radius: 8px;
-`;
-
-const StyledModalHeader = styled.header`
-    display: flex;
-    justify-content: flex-end;
-    padding: 0.5rem 0.5rem;
-    font-size: 30px;
-    cursor: pointer;
+    border-radius: 10px;
 `;
 
 const StyledIconWrapper = styled.div`
@@ -57,7 +49,7 @@ const StyledIcon = styled.img`
 const StyledBackgroundImg = styled.img`
     width: 730px;
     height: 450px;
-    border-radius: 8px;
+    border-radius: 10px;
 `;
 
 const StyledH1 = styled.h1`
@@ -84,7 +76,7 @@ const StyledP = styled.p`
     height: 52px;
     bottom: 0px;
     margin-left: 65px;
-    margin-bottom: 87px;
+    margin-bottom: 67px;
 `;
 
 const StyledButtonPrimary = styled.button`
@@ -95,12 +87,12 @@ const StyledButtonPrimary = styled.button`
     padding: 11px 56px 16px 56px;
     font-size: 18px;
     border: 0;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
     right: 0px;
     bottom: 0px;
     margin-right: 65px;
-    margin-bottom: 87px;
+    margin-bottom: 67px;
     width: 197px;
     &:hover {
         background: #0A86E4;
@@ -118,7 +110,7 @@ const StyledButtonSecondary = styled.button`
     padding: 10px 45px 15px 45px;
     font-size: 16px;
     border: 2px solid;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
     margin: 2%;
     &:hover {

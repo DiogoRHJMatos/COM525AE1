@@ -66,7 +66,7 @@ const Home = () => (
     </li>
     <li>
       <Link to="/Nav">
-        <StyledButton hover="#007AD7" active="#007AD7">Navigation Bar</StyledButton>
+        <StyledButton hover="#007AD7" active="#007AD7">Navigation</StyledButton>
       </Link>
     </li>
     <li>

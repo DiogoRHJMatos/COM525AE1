@@ -1,12 +1,11 @@
 # Interaction Design - COM525AE1
 
-Hosted Site: https://diogorhjmatos.github.io/COM525AE1/
-
----
-
 ## Introduction
 
-cenas?
+This portfolio explores 5 design components using React. Each component is presented with research, evaluation, planning, code and results.
+
+These components can be interacted with by accessing the following URL;
+Hosted Site: https://diogorhjmatos.github.io/COM525AE1/
 
 ---
 
@@ -28,7 +27,7 @@ cenas?
 - Screencast
 - Reflection
 
-[3. Navigation Bar](#3-Navigation-Bar)
+[3. Navigation](#3-Navigation)
 
 - Research
 - Evaluation of guidelines
@@ -65,7 +64,8 @@ img
 
 ### Research
 
-cenas
+A login form is for certain one of the most important design components of a website. Nowadays, almost everything on the web requires the user to have an account to access a service. But how to design a good login?
+According to Rebeka Costa, a login design should be both easy to understand and require no thoughts from the user.
 
 ### Evaluation of guidelines
 
@@ -77,7 +77,7 @@ img prototype
 
 ### Code
 
-img polaroid
+![login code](./src/assets/login.png)
 
 ### Screencast
 
@@ -107,7 +107,7 @@ img prototype
 
 ### Code
 
-img polaroid
+![buttons code](./src/assets/buttons.png)
 
 ### Screencast
 
@@ -119,7 +119,7 @@ cenas
 
 ---
 
-## 3. Navigation Bar
+## 3. Navigation
 
 img
 
@@ -137,7 +137,7 @@ img prototype
 
 ### Code
 
-img polaroid
+![navigation code](./src/assets/nav.png)
 
 ### Screencast
 
@@ -167,7 +167,7 @@ img prototype
 
 ### Code
 
-img polaroid
+![card code](./src/assets/cards.png)
 
 ### Screencast
 
@@ -197,7 +197,7 @@ img prototype
 
 ### Code
 
-img polaroid
+![modal code](./src/assets/modal.png)
 
 ### Screencast
 

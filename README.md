@@ -112,7 +112,7 @@ img prototype
 
 ### Screencast
 
-gif
+![buttons screencast](./src/assets/buttons.gif)
 
 ### Reflection
 
@@ -142,7 +142,7 @@ img prototype
 
 ### Screencast
 
-gif
+![navigation screencast](./src/assets/nav.gif)
 
 ### Reflection
 
@@ -172,7 +172,7 @@ img prototype
 
 ### Screencast
 
-gif
+![card screencast](./src/assets/cards.gif)
 
 ### Reflection
 
@@ -202,7 +202,7 @@ img prototype
 
 ### Screencast
 
-gif
+![modal screencast](./src/assets/modal.gif)
 
 ### Reflection
 

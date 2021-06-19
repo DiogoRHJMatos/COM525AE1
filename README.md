@@ -74,15 +74,15 @@ cenas
 
 ### Planning and design prototype
 
-img prototype
+![login prototype](./src/assets/prototype/login.png)
 
 ### Code
 
-![login code](./src/assets/login.png)
+![login code](./src/assets/code/login.png)
 
 ### Screencast
 
-![login screencast](./src/assets/login.gif)
+![login screencast](./src/assets/screencast/login.gif)
 
 ### Reflection
 
@@ -104,15 +104,15 @@ cenas
 
 ### Planning and design prototype
 
-img prototype
+![buttons prototype](./src/assets/prototype/buttons.png)
 
 ### Code
 
-![buttons code](./src/assets/buttons.png)
+![buttons code](./src/assets/code/buttons.png)
 
 ### Screencast
 
-![buttons screencast](./src/assets/buttons.gif)
+![buttons screencast](./src/assets/screencast/buttons.gif)
 
 ### Reflection
 
@@ -134,15 +134,15 @@ cenas
 
 ### Planning and design prototype
 
-img prototype
+![navigation prototype](./src/assets/prototype/nav.png)
 
 ### Code
 
-![navigation code](./src/assets/nav.png)
+![navigation code](./src/assets/code/nav.png)
 
 ### Screencast
 
-![navigation screencast](./src/assets/nav.gif)
+![navigation screencast](./src/assets/screencast/nav.gif)
 
 ### Reflection
 
@@ -164,15 +164,15 @@ cenas
 
 ### Planning and design prototype
 
-img prototype
+![card prototype](./src/assets/prototype/cards.png)
 
 ### Code
 
-![card code](./src/assets/cards.png)
+![card code](./src/assets/code/cards.png)
 
 ### Screencast
 
-![card screencast](./src/assets/cards.gif)
+![card screencast](./src/assets/screencast/cards.gif)
 
 ### Reflection
 
@@ -194,15 +194,15 @@ cenas
 
 ### Planning and design prototype
 
-img prototype
+![modal prototype](./src/assets/prototype/modal.png)
 
 ### Code
 
-![modal code](./src/assets/modal.png)
+![modal code](./src/assets/code/modal.png)
 
 ### Screencast
 
-![modal screencast](./src/assets/modal.gif)
+![modal screencast](./src/assets/screencast/modal.gif)
 
 ### Reflection
 

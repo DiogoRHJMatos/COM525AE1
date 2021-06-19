@@ -66,6 +66,7 @@ img
 ### Research
 
 A login form is for certain one of the most important design components of a website. Nowadays, almost everything on the web requires the user to have an account to access a service. But how to design a good login?
+
 According to Rebeka Costa, a login design should be both easy to understand and require no thoughts from the user.
 
 ### Evaluation of guidelines

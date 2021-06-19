@@ -5,6 +5,7 @@
 This portfolio explores 5 design components using React. Each component is presented with research, evaluation, planning, code and results.
 
 These components can be interacted with by accessing the following URL;
+
 Hosted Site: https://diogorhjmatos.github.io/COM525AE1/
 
 ---
@@ -81,7 +82,7 @@ img prototype
 
 ### Screencast
 
-gif
+![login screencast](./src/assets/login.gif)
 
 ### Reflection
 

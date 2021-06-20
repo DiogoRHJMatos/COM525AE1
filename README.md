@@ -112,9 +112,13 @@ Even though they can get unnoticed, buttons are for sure one of the most importa
 
 Because of its importance, it’s not only crucial to understand how to create a good-looking, appealing button, but also its placement within the product. As stated by Will Fanguy (2018), if properly implemented, it will not only create a positive user experience but also make sure the website calls to action (CTA) are completed.
 
+Buttons can have different states. From the default state, hover state, active state or even the disabled state, it's always important to consider its design to give the user a good experience.
+
 ### Evaluation of guidelines
 
-cenas
+To design this component, one of the most important things to consider is its size. This is directly related to the padding of the text inside. Too little vertical/horizontal padding can seem claustrophobic, too much padding and will start to lose its importance. It needs to be balanced, as all things should be.
+
+The second most important aspect to consider is the button states. Different states should have different characteristics to give the user the proper feedback. This can be achieved with the help of shadows, colour variations or even shape.
 
 ### Planning and design prototype
 

@@ -108,7 +108,7 @@ Although minimal, security measures such as user error and password visibility w
 
 ### Research
 
-Even though they can get unnoticed, buttons are for sure one of the most important components of any website, if not the most important. Buttons have the power to appeal to the user to navigate and interact with the product (Rebeka, data).
+Even though they can get unnoticed, buttons are for sure one of the most important components of any website. Buttons have the power to appeal to the user to navigate and interact with the product (Rebeka, data).
 
 Because of its importance, it’s not only crucial to understand how to create a good-looking, appealing button, but also its placement within the product. As stated by Will Fanguy (2018), if properly implemented, it will not only create a positive user experience but also make sure the website calls to action (CTA) are completed.
 
@@ -150,7 +150,11 @@ Following the research and guidelines presented above, this component was design
 
 ### Research
 
-cenas
+Navigation may be one of the most important components of any website, if not the most important. Having an exciting and well-designed website is useless if the users are unable to explore and navigate around it (Balanco, data).
+
+There are several different ways to design navigation. The most common ones are a header on the top, which can be both fixed or stationary, a dropdown menu, or even the famous hamburger side menu (Anon, 2020).
+
+As pointed by Costa (data), having a good navigation design can enhance a user’s understanding, give them the confidence to explore the website while also provide credibility to a product.
 
 ### Evaluation of guidelines
 

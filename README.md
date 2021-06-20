@@ -164,6 +164,12 @@ All elements inside should be well spaced from one another and have several inte
 
 ### Planning and design prototype
 
+Following the research and guidelines above explored, the prototype for this component was as straightforward as it could be. A container with round corners and a very predominant colour were created, this helps the user to focus its attention on the navigation menu once prompted to open.
+
+Next, labels were added with enough space from one another so the user can “breath” between the different options. To differentiate between the different interaction states, colour variants were used as previously explored.
+
+Finally, a close icon was added to the top part of the component, big enough for the user to click, but not too big to overcrowd the primary function of the design.
+
 ![navigation prototype](./src/assets/prototype/nav.png)
 
 ### Code

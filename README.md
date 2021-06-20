@@ -196,7 +196,7 @@ Although quite recent, cards are being more and more used as the main way to dis
 
 ### Evaluation of guidelines
 
-cenas
+To design a good card system, the information should be concise, with emphasis on the image to create a modern/minimalist design. This creates a simple, yet eye-catching component that strengthens both the user experience and its usability.
 
 ### Planning and design prototype
 

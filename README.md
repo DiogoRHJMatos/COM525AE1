@@ -98,7 +98,9 @@ A dark “eye” icon was also added to the password input to reinforce the idea
 
 ### Reflection
 
-cenas
+This component was developed following the research principles of being easy to understand and require almost no thoughts from the user, creating a minimalist, user-friendly design that works and engages with the user.
+
+Although minimal, security measures such as user error and password visibility were effectively added to the design, making the user feel more comfortable while filling the form.
 
 ---
 

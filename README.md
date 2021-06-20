@@ -64,11 +64,11 @@ Hosted Site: https://diogorhjmatos.github.io/COM525AE1/
 
 ### Research
 
-The login page is for certain one of the most important design components of a website, it is a powerful tool that can help shape the user experience.
+The login page is an important design component of any modern website, it is a powerful tool that can help shape the user experience.
 
-Since nowadays, almost everything on the web requires the user to have an account to access a service, it is mandatory to inspire a sense of security (Amelia). If this component is poorly designed, it will be perceived by the user as something sketchy and untrustful.
+Since nowadays, almost everything on the web requires the user to have an account to access a service, it is mandatory to inspire a sense of security (Amelia, data). If this component is poorly designed, it will be perceived by the user as something sketchy and untrustful.
 
-According to Rebeka Costa, a login design should be both easy to understand and require no thoughts from the user.
+According to Rebeka Costa(data), a login design should be both easy to understand and require no thoughts from the user.
 
 ### Evaluation of guidelines
 
@@ -108,7 +108,9 @@ Although minimal, security measures such as user error and password visibility w
 
 ### Research
 
-cenas
+Even though they can get unnoticed, buttons are for sure one of the most important components of any website, if not the most important. Buttons have the power to appeal to the user to navigate and interact with the product (Rebeka, data).
+
+Because of its importance, it’s not only crucial to understand how to create a good-looking, appealing button, but also its placement within the product. As stated by Will Fanguy (2018), if properly implemented, it will not only create a positive user experience but also make sure the website calls to action (CTA) are completed.
 
 ### Evaluation of guidelines
 

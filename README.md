@@ -68,7 +68,7 @@ The login page is an important design component of any modern website, it is a p
 
 Since nowadays, almost everything on the web requires the user to have an account to access a service, it is mandatory to inspire a sense of security (Amelia, 2021). If this component is poorly designed, it will be perceived by the user as something sketchy and untrustful.
 
-According to Rebeka Costa (2020), a login design should be both easy to understand and require no thoughts from the user.
+According to Costa (2020), a login design should be both easy to understand and require no thoughts from the user.
 
 ### Evaluation of guidelines
 
@@ -110,7 +110,7 @@ Although minimal, security measures such as user error and password visibility w
 
 Even though they can get unnoticed, buttons are for sure one of the most important components of any website. Buttons have the power to appeal to the user to navigate and interact with the product (Costa, 2020).
 
-Because of its importance, it’s not only crucial to understand how to create a good-looking, appealing button, but also its placement within the product. As stated by Will Fanguy (2018), if properly implemented, it will not only create a positive user experience but also make sure the website calls to action (CTA) are completed.
+Because of its importance, it’s not only crucial to understand how to create a good-looking, appealing button, but also its placement within the product. As stated by Fanguy (2018), if properly implemented, it will not only create a positive user experience but also make sure the website calls to action (CTA) are completed.
 
 Buttons can have different states. From the default state, hover state, active state or even the disabled state, it's always important to consider its design to give the user a good experience.
 

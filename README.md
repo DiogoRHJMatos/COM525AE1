@@ -142,7 +142,7 @@ To differentiate the button states, colour variants were used to indicate that t
 
 ### Reflection
 
-cenas
+Following the research and guidelines presented above, this component was designed to invite the user to complete a website CTA. By giving it a good size balance between text and the overall button, this component is not only simple but also effective on its mission.
 
 ---
 

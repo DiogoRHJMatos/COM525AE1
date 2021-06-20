@@ -158,7 +158,9 @@ As pointed by Costa (data), having a good navigation design can enhance a userâ€
 
 ### Evaluation of guidelines
 
-cenas
+As pointed in this components research, good navigation needs to be both simple and obvious to the user. To achieve this, the hamburger side menu should be used because of its simplicity.
+
+All elements inside should be well spaced from one another and have several interaction states to better guide the user.
 
 ### Planning and design prototype
 

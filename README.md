@@ -256,7 +256,11 @@ Lastly, a close icon and background “shadow” was introduced to the system.
 
 ### Reflection
 
-cenas
+Having into consideration the research and guidelines, this component passed through many iterations until a visually appealing, minimalist modal was achieved.
+
+The hierarchy of the different elements present in the component enables the user to direct its awareness logically without putting too much thought into it.
+
+Allowing the user to close the modal by pressing both the close icon and background, guarantees that the user will be able to perform this action in a stress-free environment.
 
 ---
 

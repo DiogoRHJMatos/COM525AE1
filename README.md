@@ -218,7 +218,7 @@ Afterwards, a concise text related to the image was placed underneath it with 20
 
 ### Reflection
 
-cenas
+This design component was developed strictly following the research and guidelines above documented. This simple, eye-catching design, with short and direct information, invites the user to click and explore each card. To better show its functionality, a modal component was linked to each card.
 
 ---
 

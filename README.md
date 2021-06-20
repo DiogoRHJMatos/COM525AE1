@@ -182,7 +182,7 @@ Finally, a close icon was added to the top part of the component, big enough for
 
 ### Reflection
 
-cenas
+Even though the simplicity of this component’s design, it is easy and obvious for the user to navigate the website. Adding a smooth opening/closing transition to the side menu, creates a friendly environment that enhances the user’s confidence to explore the product with confidence.
 
 ---
 

@@ -4,8 +4,7 @@
 
 This portfolio explores 5 modern/minimalist design components, created using Adobe XD and a React application environment. Each component is presented with research, evaluation, planning, code and results.
 
-These components can be interacted with by accessing the following URL:
-Hosted Site: https://diogorhjmatos.github.io/COM525AE1/
+These components can be interacted with by accessing the following URL to the hosted site: https://diogorhjmatos.github.io/COM525AE1/
 
 ---
 

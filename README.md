@@ -122,6 +122,14 @@ The second most important aspect to consider is the button states. Different sta
 
 ### Planning and design prototype
 
+For this component’s prototype, lowercase text with 18px font size was used to deliver a more friendly experience that is otherwise, hard to achieve with uppercase.
+
+After choosing how to deliver the text inside the button, vertical padding of 14px and horizontal padding of 56px were added. This ensured a great balance of the size of the button.
+
+Next, using the frame of the previously created button, a secondary type button was designed. Because of its nature, the secondary button should be the second to catch the users attention for an action. With this in mind, a border was added, leaving its interior empty of focus.
+
+To differentiate the button states, colour variants were used to indicate that the state has changed.
+
 ![buttons prototype](./src/assets/prototype/buttons.png)
 
 ### Code

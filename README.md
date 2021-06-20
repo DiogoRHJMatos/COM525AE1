@@ -9,6 +9,8 @@ Hosted Site: https://diogorhjmatos.github.io/COM525AE1/
 
 ---
 
+## Table of Contents
+
 [1. Login](#1-Login)
 
 - Research
@@ -75,6 +77,14 @@ To develop this component, a minimum of two input fields are necessary; a userna
 The login form should also let the users check their password if needed. This allows the user to feel more in control of its password, and therefore, its security.
 
 ### Planning and design prototype
+
+To develop the component’s prototype, the first thing to consider was how the information should be grouped and presented to the user.
+
+First, a simple white container was designed with round corners to better assist in being user-friendly. A header displaying the function of the form was created and separated from the rest of the form to give it more prominence. Labels and inputs were grouped so that their understanding is more noticeable.
+
+Lastly, the “sign in” button was designed. Being the only object that has chromatic colour, it will grab the users attention to fill the required fields.
+
+A dark “eye” icon was also added to the password input to reinforce the idea that the password visibility can be toggled at need.
 
 ![login prototype](./src/assets/prototype/login.png)
 

@@ -61,11 +61,12 @@ Hosted Site: https://diogorhjmatos.github.io/COM525AE1/
 
 ## 1. Login
 
-img
-
 ### Research
 
-A login form is for certain one of the most important design components of a website. Nowadays, almost everything on the web requires the user to have an account to access a service. But how to design a good login?
+The login page is for certain one of the most important design components of a website, it is a powerful tool that can help shape the user experience.
+
+Since nowadays, almost everything on the web requires the user to have an account to access a service, it is mandatory to inspire a sense of security (Amelia). If this component is poorly designed, it will be perceived by the user as something sketchy and untrustful.
+
 According to Rebeka Costa, a login design should be both easy to understand and require no thoughts from the user.
 
 ### Evaluation of guidelines
@@ -91,8 +92,6 @@ cenas
 ---
 
 ## 2. Buttons
-
-img
 
 ### Research
 
@@ -122,8 +121,6 @@ cenas
 
 ## 3. Navigation
 
-img
-
 ### Research
 
 cenas
@@ -152,8 +149,6 @@ cenas
 
 ## 4. Card
 
-img
-
 ### Research
 
 cenas
@@ -181,8 +176,6 @@ cenas
 ---
 
 ## 5. Modal
-
-img
 
 ### Research
 

@@ -190,7 +190,9 @@ Even though the simplicity of this component’s design, it is easy and obvious 
 
 ### Research
 
-cenas
+The fourth component is cards. By definition, a card is a container with an image and where a piece of short information is displayed (Laubheimer, 2016). Its mission is to guide the user to click and view more details related to that same card.
+
+Although quite recent, cards are being more and more used as the main way to display information, the most important reason? Its flexibility and simplicity (Samy, 2020).
 
 ### Evaluation of guidelines
 

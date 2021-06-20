@@ -226,7 +226,9 @@ This design component was developed strictly following the research and guidelin
 
 ### Research
 
-cenas
+The last component designed in this project was modals. Modals are containers that appear above the main content taking away its focus (Fessenden, 2017).
+
+Sebastian (2018) akowledges that the modal screens were created to solve a simple yet important problem: users are easily distracted. The main function of this component is to create focus on important information while preventing the user from doing other things.
 
 ### Evaluation of guidelines
 

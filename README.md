@@ -66,9 +66,9 @@ Hosted Site: https://diogorhjmatos.github.io/COM525AE1/
 
 The login page is an important design component of any modern website, it is a powerful tool that can help shape the user experience.
 
-Since nowadays, almost everything on the web requires the user to have an account to access a service, it is mandatory to inspire a sense of security (Amelia, data). If this component is poorly designed, it will be perceived by the user as something sketchy and untrustful.
+Since nowadays, almost everything on the web requires the user to have an account to access a service, it is mandatory to inspire a sense of security (Amelia, 2021). If this component is poorly designed, it will be perceived by the user as something sketchy and untrustful.
 
-According to Rebeka Costa(data), a login design should be both easy to understand and require no thoughts from the user.
+According to Rebeka Costa (2020), a login design should be both easy to understand and require no thoughts from the user.
 
 ### Evaluation of guidelines
 
@@ -108,7 +108,7 @@ Although minimal, security measures such as user error and password visibility w
 
 ### Research
 
-Even though they can get unnoticed, buttons are for sure one of the most important components of any website. Buttons have the power to appeal to the user to navigate and interact with the product (Rebeka, data).
+Even though they can get unnoticed, buttons are for sure one of the most important components of any website. Buttons have the power to appeal to the user to navigate and interact with the product (Costa, 2020).
 
 Because of its importance, it’s not only crucial to understand how to create a good-looking, appealing button, but also its placement within the product. As stated by Will Fanguy (2018), if properly implemented, it will not only create a positive user experience but also make sure the website calls to action (CTA) are completed.
 
@@ -150,11 +150,11 @@ Following the research and guidelines presented above, this component was design
 
 ### Research
 
-Navigation may be one of the most important components of any website, if not the most important. Having an exciting and well-designed website is useless if the users are unable to explore and navigate around it (Balanco, data).
+Navigation may be one of the most important components of any website, if not the most important. Having an exciting and well-designed website is useless if the users are unable to explore and navigate around it (Balanco, n.d.).
 
 There are several different ways to design navigation. The most common ones are a header on the top, which can be both fixed or stationary, a dropdown menu, or even the famous hamburger side menu (Anon, 2020).
 
-As pointed by Costa (data), having a good navigation design can enhance a user’s understanding, give them the confidence to explore the website while also provide credibility to a product.
+As pointed by Costa (2020), having a good navigation design can enhance a user’s understanding, give them the confidence to explore the website while also provide credibility to a product.
 
 ### Evaluation of guidelines
 
@@ -266,4 +266,24 @@ Allowing the user to close the modal by pressing both the close icon and backgro
 
 ## References
 
-cenas
+AMELIA. 2021. Login Page Design: Do’s and Don’ts [viewed May 10, 2021]. Available from: https://wpamelia.com/login-page-design/
+
+ANON. 2020. Why is navigation so important on a website? [viewed May 20, 2021]. Available from: https://gositebuilder.com/blog/journal-why-is-navigation-so-important-on-a-website-2/
+
+BALANCO, D. n.d. Importance Of Website Navigation [viewed May 20, 2021]. Available from: https://www.optimus01.co.za/importance-of-website-navigation/
+
+BASKANDERI, N. 2017. Best Practices for Modals / Overlays / Dialog Windows [viewed May 30, 2021]. Available from: https://uxplanet.org/best-practices-for-modals-overlays-dialog-windows-c00c66cddd8c
+
+COSTA, R. 2020. 20 inspiring website login form pages [viewed May 10, 2021]. Available from: https://www.justinmind.com/blog/20-inspiring-website-login-form-pages/
+
+COSTA, R. 2020. Button design for websites and mobile apps [viewed May 16, 2021]. Available from: https://www.justinmind.com/blog/button-design-websites-mobile-apps/
+
+COSTA, R. 2020. Navigation design: Almost everything you need to know [viewed May 20, 2021]. Available from: https://www.justinmind.com/blog/navigation-design-almost-everything-you-need-to-know/
+
+FANGUY, W. 2018. A comprehensive guide to designing UX buttons [viewed May 16, 2021]. Available from: https://www.invisionapp.com/inside-design/comprehensive-guide-designing-ux-buttons/
+
+LAUBHEIMER, P. 2016. Cards: UI-Component Definition [viewed May 23, 2021]. Available from: https://www.nngroup.com/articles/cards-component/
+
+SAMMY. 2020. Let’s talk about card design in web design [viewed May 23, 2021]. Available from: https://uxdesign.cc/lets-talk-about-card-design-in-web-design-f618e6bf31e9
+
+SEBASTIAN, F. 2018. Modality Is the One UX Concept That Most Designers Don’t Fully Understand [viewed May 30, 2021]. Available from: https://uxplanet.org/modality-the-one-ux-concept-you-need-to-understand-when-designing-intuitive-user-interfaces-e5e941c7acb1

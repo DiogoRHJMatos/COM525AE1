@@ -200,6 +200,12 @@ To design a good card system, the information should be concise, with emphasis o
 
 ### Planning and design prototype
 
+Designing this components prototype was as simple as complicated to idealise.
+
+First, a white container with round corners was created. Next, an image was placed inside with an all-around margin of 10px, this helps to produce the idea that the previously created container is wrapping around its content, without overpowering it.
+
+Afterwards, a concise text related to the image was placed underneath it with 20px of left margin. By giving this little but perceptible margin, the text will not be too close to the right to the point it seems misplaced. The text was not chosen to be placed in the centre since that would take the focus of the image and would be too overwhelming for the design.
+
 ![card prototype](./src/assets/prototype/cards.png)
 
 ### Code

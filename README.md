@@ -226,15 +226,23 @@ This design component was developed strictly following the research and guidelin
 
 ### Research
 
-The last component designed in this project was modals. Modals are containers that appear above the main content taking away its focus (Fessenden, 2017).
+The last component designed in this project was modals. Modals are design elements that appear above the main content disabling it while also keeping it visible in the background (Baskanderi, 2017). This motivates the user to interact with the modal.
 
 Sebastian (2018) akowledges that the modal screens were created to solve a simple yet important problem: users are easily distracted. The main function of this component is to create focus on important information while preventing the user from doing other things.
 
 ### Evaluation of guidelines
 
-cenas
+For this last component design, the modal box must be placed in the centre of the page and have a significant background colour to take away the users attention from the main window, while still being able to see it.
+
+To better integrate with the rest of the previously designed components, it should also be simple, eye-catching and concise.
 
 ### Planning and design prototype
+
+For this components prototype, an image was placed as the main container of this design element. By making this choice, the user feels more submerged into the modal ambience and helps to deviate its attention away from the content in the background.
+
+The text was then added to the upper half of the modal, giving it more contrast by adding shadows. Subsequently, a button was placed on the lower half of the modal, creating a second, less predominant, contrast to the design.
+
+Lastly, a close icon and background “shadow” was introduced to the system.
 
 ![modal prototype](./src/assets/prototype/modal.png)
 

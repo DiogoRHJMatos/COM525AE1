@@ -71,7 +71,9 @@ According to Rebeka Costa, a login design should be both easy to understand and 
 
 ### Evaluation of guidelines
 
-cenas
+To develop this component, a minimum of two input fields are necessary; a username or email field, and a password field. To help the user signing in and prevent user errors, the form should alert the user for any mistakes, or missing data.
+
+The login form should also let the users check their password if needed. This allows the user to feel more in control of its password, and therefore, its security.
 
 ### Planning and design prototype
 
